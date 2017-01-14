@@ -1,0 +1,8 @@
+// include another .scss file from a sub-directory
+@import './about/about.scss';
+
+body {
+    a {
+        color: magenta;
+    }
+}

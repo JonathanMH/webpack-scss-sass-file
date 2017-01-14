@@ -1,0 +1,21 @@
+{
+  "name": "webpack-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "extract-text-webpack-plugin": "2.0.0-beta.4"
+  },
+  "dependencies": {
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.3.0",
+    "sass-loader": "^4.1.1",
+    "webpack": "^2.2.0-rc.4"
+  }
+}
