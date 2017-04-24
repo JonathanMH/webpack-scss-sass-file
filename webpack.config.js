@@ -16,6 +16,9 @@ module.exports = {
         loader: ExtractTextPlugin.extract({
           loader: 'css-loader?importLoaders=1',
         }),
+        options: {
+          includePath: "./css/plain_css.css"
+        }
       },
       { // sass / scss loader for webpack
         test: /\.(sass|scss)$/,
