@@ -63,7 +63,7 @@ Typically [webpack][] processes everything in an input file and what ever is *re
 
 Have a look at the config for this project below:
 
-```
+```javascript
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -107,7 +107,7 @@ Also note that in our entry points, we specify that `./scss/main.scss` should be
 Congratulations, now our `.scss` files that used to look like this:
 
 **main.scss**
-```
+```css
 // include another .scss file from a sub-directory
 @import './about/about.scss';
 
@@ -119,7 +119,7 @@ body {
 ```
 
 **about/about.scss**
-```
+```css
 body {
     p {
         line-height: 1.5;
@@ -129,7 +129,7 @@ body {
 
 Should be transpiled into a plain css file:
 
-```
+```css
 body p {
   line-height: 1.5; }
 
